@@ -1,0 +1,15 @@
+@use '@scssVariables' as v;
+
+.header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 2rem;
+  }
+}

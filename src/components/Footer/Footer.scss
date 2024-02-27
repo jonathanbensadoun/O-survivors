@@ -1,0 +1,13 @@
+@use '@scssVariables' as v;
+
+.footer {
+  display: flex;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;  
+  
+  &__list {
+    padding-right: 2rem;
+  }
+}

@@ -1,0 +1,14 @@
+@use '@scssVariables' as v;
+
+.menu {
+  height: 90vh;
+  &__lists {
+    font-size: 1.4rem;
+    font-weight: 700;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
